@@ -1,0 +1,81 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: 180% 180%;
+    background-image: linear-gradient(to top left,#390099 ,#9e0059, #FF4289);
+    animation: bgAnimation 30s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes bgAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+.container{
+    width: 100px;
+    height: 90px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.containerSecondSize{
+    width: 700px;
+}
+
+.image:hover{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.menu{
+    background-image: url("image/menu.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+}
+
+.showHome{
+    background-image: url("image/home.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+}
+
+.showAbout{
+    background-image: url("image/about.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+}
+
+.showContact{
+    background-image: url("image/contact.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+}
